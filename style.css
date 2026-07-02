@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=BBH+Bartle&family=Bungee&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+.heroslidersec img{
+    height: 100vh;
+}
+
+.adbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Solutionssec{
+    background-image: url('assets/cta-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    padding: 50px 0;
+}
+.formsec{
+    background-image: url('assets/calculator-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0;
+    color: #fff;
+}
+.formimg img{
+    height: 400px;
+}
+.mybtn{
+    background-color: #ff511a !important;
+    border-color: #ff511a;
+    outline: none;
+}
+
+.footer{
+    background-color: #212741;
+    padding: 80px 0px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .Solutionssec{
+        height: inherit;
+        text-align: center;
+    }
+}
